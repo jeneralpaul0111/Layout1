@@ -1,6 +1,7 @@
 footer {
   position: fixed;
   background-color: #333;
+  width: 100%;
   color: #fff;
   padding: 0.5em;
   bottom: 0;
@@ -10,7 +11,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
 }
 
@@ -31,5 +32,6 @@ nav .aFooter {
 }
 
 nav .aFooter:hover {
+  text-decoration: underline;
   color: #f00;
 }
